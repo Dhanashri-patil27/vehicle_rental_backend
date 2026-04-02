@@ -1,5 +1,5 @@
 const { Op } = require('sequelize');
-const db = require('../model');
+const db = require('../models');
 
 const Vehicle = db.vehicles;
 const Booking = db.bookings;

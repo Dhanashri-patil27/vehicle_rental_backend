@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-const db = require('./model');
+const db = require('./models');
 
 const vehicleRoutes = require('./router/vehicleRouter');
 const bookingRoutes = require('./router/bookingRouter');
